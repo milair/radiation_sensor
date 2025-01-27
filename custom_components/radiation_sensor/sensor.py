@@ -14,7 +14,6 @@ HEADERS = {
 }
 
 async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):
-    """Настройка сенсора через платформу."""
     async_add_entities([RadiationSensor()])
 
 async def async_setup_entry(hass, config_entry, async_add_entities):
@@ -58,4 +57,4 @@ class RadiationSensor(SensorEntity):
             self._last_update = radiation_last_time
 
         except Exception as e:
-            _LOGGER.error(f"Ошибка при обновлении данных: {e}")
+            _LOGGER.error(f"Data update error: {e}")

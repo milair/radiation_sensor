@@ -2,7 +2,6 @@ import logging
 import requests
 from bs4 import BeautifulSoup
 from homeassistant.components.sensor import SensorEntity
-#from homeassistant.helpers.update_coordinator import CoordinatorEntity, DataUpdateCoordinator
 from datetime import timedelta
 
 _LOGGER = logging.getLogger(__name__)
@@ -50,7 +49,6 @@ class RadiationSensor(SensorEntity):
 
             data = soup.find("div", class_="grid grid-cols-12 gap-4 sm:gap-8")
             radiation_value = data.find("div", class_="text-2xl md:text-4xl font-medium").text.strip()
-            """radiation_value = radiation_value.replace(".", ",")"""
             radiation_last_time = data.find("div", class_="text-sm").text.strip()
 
             self._state = radiation_value

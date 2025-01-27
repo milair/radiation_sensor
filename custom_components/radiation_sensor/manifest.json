@@ -1,0 +1,8 @@
+{
+  "domain": "radiation_sensor",
+  "name": "Radiation Sensor",
+  "documentation": "https://example.com",
+  "requirements": ["beautifulsoup4", "requests"],
+  "codeowners": ["@milair"],
+  "version": "1.0.1"
+}

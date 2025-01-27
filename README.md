@@ -8,4 +8,5 @@ run test, we try, we check
 ```yaml
 sensor:
   - platform: radiation_sensor
+    name: "Kyiv Radiation Level"
 ```

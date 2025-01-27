@@ -2,7 +2,7 @@
 
 [Home Assistant](https://www.home-assistant.io/) is an amazing home automation system
 
-This code snippet adds SaveEcoBot API information (radiation sensor only) to Home Assistant.
+This code snippet adds SaveEcoBot API information (radiation sensor only) to Home Assistant for capital of Ukrainian 🇺🇦
 
 First test run
 

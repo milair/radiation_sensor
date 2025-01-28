@@ -1,6 +1,6 @@
 {
-  "domain": "irpin_meteo_station",
-  "name": "Irpin Meteo Station",
+  "domain": "meteo_station",
+  "name": "Meteo Station",
   "documentation": "https://example.com",
   "requirements": ["aiohttp>=3.8.4"],
   "dependencies": [],

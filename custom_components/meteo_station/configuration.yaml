@@ -1,0 +1,5 @@
+sensor:
+  - platform: meteo_saveecobot
+    sensor_ids: 
+      - "SAVEDNIPRO_000000"
+      - "SAVEDNIPRO_000000"

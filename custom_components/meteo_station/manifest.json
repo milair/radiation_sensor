@@ -1,9 +1,9 @@
 {
-  "domain": "meteo_station",
-  "name": "Meteo Station",
-  "documentation": "https://example.com",
-  "requirements": ["aiohttp>=3.8.4"],
+  "domain": "meteo_saveecobot",
+  "name": "Meteo SaveEcoBot",
+  "version": "1.0",
+  "documentation": "https://github.com/milair/",
   "dependencies": [],
   "codeowners": ["@milair"],
-  "version": "1.0.0"
+  "requirements": ["requests>=2.25.1"]
 }

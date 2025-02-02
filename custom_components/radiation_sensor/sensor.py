@@ -8,8 +8,11 @@ _LOGGER = logging.getLogger(__name__)
 
 URL = "https://www.saveecobot.com/radiation/misto-kyiv"
 HEADERS = {
-    "Accept": "text/html",
-    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 12_3_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Connection": "keep-alive",
+    "Referer": "https://saveecobot.com/",
 }
 
 async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):

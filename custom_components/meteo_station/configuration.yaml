@@ -1,5 +1,14 @@
 sensor:
+# Average value for several sensors
+#  - platform: meteo_saveecobot
+#    sensor_ids: 
+#      - "SAVEDNIPRO_0000"
+#      - "SAVEDNIPRO_0000"
+
+# importance for the city
+#  - platform: meteo_saveecobot
+#    city_name: "Name_City"
+    
+# value for 1 sensor
   - platform: meteo_saveecobot
-    sensor_ids: 
-      - "SAVEDNIPRO_000000"
-      - "SAVEDNIPRO_000000"
+    sensor_id: "SAVEDNIPRO_0000"
